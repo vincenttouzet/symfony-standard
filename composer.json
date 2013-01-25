@@ -22,7 +22,8 @@
         "sonata-project/cache-bundle": "master",
         "sonata-project/intl-bundle": "master",
         "sonata-project/user-bundle": "master",
-        "simplethings/entity-audit-bundle": "master"
+        "simplethings/entity-audit-bundle": "master",
+        "vincet/admin-bundle": "master"
     },
     "scripts": {
         "post-install-cmd": [

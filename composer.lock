@@ -1,5 +1,5 @@
 {
-    "hash": "ba259551d4902701b1c6642e149aa1f4",
+    "hash": "5d715dab8f3de2360436a49801ff618a",
     "packages": [
         {
             "name": "doctrine/common",
@@ -2286,6 +2286,46 @@
             "keywords": [
                 "templating"
             ]
+        },
+        {
+            "name": "vincet/admin-bundle",
+            "version": "dev-master",
+            "target-dir": "VinceT/AdminBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vincenttouzet/AdminBundle",
+                "reference": "34a90b2e0eb51630e80bd504c66d0a617e76f916"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/vincenttouzet/AdminBundle/archive/34a90b2e0eb51630e80bd504c66d0a617e76f916.zip",
+                "reference": "34a90b2e0eb51630e80bd504c66d0a617e76f916",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "sonata-project/admin-bundle": "dev-master"
+            },
+            "time": "2013-01-25 20:37:19",
+            "type": "symfony-bundle",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "VinceT\\AdminBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Touzet",
+                    "email": "vincent.touzet@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Symfony VinceTAdminBundle"
         },
         {
             "name": "vincet/base-bundle",
