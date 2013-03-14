@@ -1,5 +1,5 @@
 {
-    "hash": "97cdda87861cadd44f6ff282113a5af3",
+    "hash": "42eb3b6b02b311f9bd5e0e4a27fcbace",
     "packages": [
         {
             "name": "doctrine/common",
@@ -1021,6 +1021,44 @@
             "time": "2013-01-04 17:09:08"
         },
         {
+            "name": "simplethings/entity-audit-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplethings/EntityAudit.git",
+                "reference": "6f96cb48cebc992dc656d36710e5cc39fe2dd66f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplethings/EntityAudit/zipball/6f96cb48cebc992dc656d36710e5cc39fe2dd66f",
+                "reference": "6f96cb48cebc992dc656d36710e5cc39fe2dd66f",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.1.0,<2.4"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimpleThings\\EntityAudit": "src/"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "New BSD"
+            ],
+            "description": "Audit for Doctrine Entities",
+            "keywords": [
+                "Audit",
+                "database",
+                "persistence"
+            ],
+            "time": "2012-11-15 11:29:17"
+        },
+        {
             "name": "sonata-project/admin-bundle",
             "version": "2.1.x-dev",
             "target-dir": "Sonata/AdminBundle",
@@ -1421,6 +1459,67 @@
                 "google authenticator"
             ],
             "time": "2013-02-16 14:20:21"
+        },
+        {
+            "name": "sonata-project/intl-bundle",
+            "version": "dev-master",
+            "target-dir": "Sonata/IntlBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/SonataIntlBundle.git",
+                "reference": "3e5b49415afe8343803b52e8f0ffea8ca38c2bd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sonata-project/SonataIntlBundle/zipball/3e5b49415afe8343803b52e8f0ffea8ca38c2bd3",
+                "reference": "3e5b49415afe8343803b52e8f0ffea8ca38c2bd3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "symfony/dependency-injection": "2.*",
+                "symfony/http-kernel": "2.*",
+                "symfony/locale": "2.*",
+                "symfony/templating": "2.*",
+                "twig/twig": "*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0": "2.0.x-dev",
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sonata\\IntlBundle": ""
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Rabaix",
+                    "email": "thomas.rabaix@sonata-project.org",
+                    "homepage": "http://sonata-project.org"
+                },
+                {
+                    "name": "Sonata Community",
+                    "homepage": "https://github.com/sonata-project/SonataIntlBundle/contributors"
+                }
+            ],
+            "description": "Symfony SonataIntlBundle",
+            "homepage": "http://sonata-project.org/bundles/intl",
+            "keywords": [
+                "date",
+                "intl",
+                "number",
+                "sonata",
+                "time"
+            ],
+            "time": "2013-03-05 21:40:19"
         },
         {
             "name": "sonata-project/jquery-bundle",
@@ -1952,12 +2051,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vincenttouzet/AdminBundle.git",
-                "reference": "a24a108dc2a0f778ca730f57da6e64a8c0a74ee7"
+                "reference": "cf3fe451b2fd8117cf86f7866f9de64b2d78eabd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vincenttouzet/AdminBundle/zipball/a24a108dc2a0f778ca730f57da6e64a8c0a74ee7",
-                "reference": "a24a108dc2a0f778ca730f57da6e64a8c0a74ee7",
+                "url": "https://api.github.com/repos/vincenttouzet/AdminBundle/zipball/cf3fe451b2fd8117cf86f7866f9de64b2d78eabd",
+                "reference": "cf3fe451b2fd8117cf86f7866f9de64b2d78eabd",
                 "shasum": ""
             },
             "require": {
@@ -1982,7 +2081,7 @@
                 }
             ],
             "description": "Symfony VinceTAdminBundle",
-            "time": "2013-03-14 19:46:26"
+            "time": "2013-03-14 20:21:08"
         },
         {
             "name": "vincet/admin-configuration-bundle",
@@ -1991,12 +2090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vincenttouzet/AdminConfigurationBundle.git",
-                "reference": "06fbbdab7406b2be6534fe8a3d8262d9ab126891"
+                "reference": "8b637dd41efd7b7ed70f673d19a8fb3116ac6372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vincenttouzet/AdminConfigurationBundle/zipball/06fbbdab7406b2be6534fe8a3d8262d9ab126891",
-                "reference": "06fbbdab7406b2be6534fe8a3d8262d9ab126891",
+                "url": "https://api.github.com/repos/vincenttouzet/AdminConfigurationBundle/zipball/8b637dd41efd7b7ed70f673d19a8fb3116ac6372",
+                "reference": "8b637dd41efd7b7ed70f673d19a8fb3116ac6372",
                 "shasum": ""
             },
             "require": {
@@ -2022,7 +2121,7 @@
                 }
             ],
             "description": "Symfony VinceTAdminConfigurationBundle",
-            "time": "2013-02-18 19:45:11"
+            "time": "2013-03-14 21:32:12"
         },
         {
             "name": "vincet/base-bundle",
@@ -2074,7 +2173,9 @@
         "kriswallsmith/assetic": 20,
         "sonata-project/admin-bundle": 20,
         "sonata-project/user-bundle": 20,
+        "sonata-project/intl-bundle": 20,
         "sonata-project/doctrine-orm-admin-bundle": 20,
+        "simplethings/entity-audit-bundle": 20,
         "vincet/base-bundle": 20,
         "vincet/admin-bundle": 20,
         "vincet/admin-configuration-bundle": 20

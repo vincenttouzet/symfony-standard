@@ -24,11 +24,14 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
             new Sonata\BlockBundle\SonataBlockBundle(),
+            new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
+
+            new SimpleThings\EntityAudit\SimpleThingsEntityAuditBundle(),
 
             new VinceT\BaseBundle\VinceTBaseBundle(),
             new VinceT\AdminBundle\VinceTAdminBundle('SonataAdminBundle'),
