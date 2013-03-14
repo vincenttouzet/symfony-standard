@@ -6,6 +6,9 @@
 vince_t_admin:
     resource: "@VinceTAdminBundle/Resources/config/routing.yml"
     prefix:   /
+vince_t_admin_configuration:
+    resource: "@VinceTAdminConfigurationBundle/Resources/config/routing.yml"
+    prefix:   /
 
 admin:
     resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'

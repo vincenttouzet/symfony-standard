@@ -32,6 +32,7 @@ class AppKernel extends Kernel
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new VinceT\BaseBundle\VinceTBaseBundle(),
             new VinceT\AdminBundle\VinceTAdminBundle('SonataAdminBundle'),
+            new VinceT\AdminConfigurationBundle\VinceTAdminConfigurationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
