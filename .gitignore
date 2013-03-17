@@ -4,7 +4,7 @@ app/cache/*
 app/logs/*
 build/
 /bin/
-vendor
+/vendor
 composer.phar
 web/css/compiled
 web/js/compiled
