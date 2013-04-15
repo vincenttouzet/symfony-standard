@@ -35,6 +35,7 @@ class AppKernel extends Kernel
 
             new VinceT\BaseBundle\VinceTBaseBundle(),
             new VinceT\AdminBundle\VinceTAdminBundle('SonataAdminBundle'),
+            new VinceT\BootstrapFormBundle\VinceTBootstrapFormBundle(),
             new VinceT\AdminConfigurationBundle\VinceTAdminConfigurationBundle(),
         );
 
