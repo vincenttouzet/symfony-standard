@@ -24,6 +24,9 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form:
+        resources:
+            - 'VinceTBootstrapFormBundle:Form:fields.html.twig'
 
 # Assetic Configuration
 assetic:
@@ -81,6 +84,18 @@ fos_user:
     group:
         group_class: Application\Sonata\UserBundle\Entity\Group
 
+sonata_admin:
+    title: Sonata Project
+    title_logo: /bundles/sonataadmin/logo_title.png
+    templates:
+        # default global templates
+        layout: SonataAdminBundle::standard_layout.html.twig
+        ajax: SonataAdminBundle::ajax_layout.html.twig
+
+        # default actions templates, should extend a global templates
+        list: SonataAdminBundle:CRUD:list.html.twig
+        show: SonataAdminBundle:CRUD:show.html.twig
+        edit: SonataAdminBundle:CRUD:edit.html.twig
 
 # vince_t_admin:
 #     default_theme: default
