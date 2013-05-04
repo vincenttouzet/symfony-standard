@@ -9,13 +9,16 @@ framework:
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
         strict_requirements: "%kernel.debug%"
-    form:            true
-    csrf_protection: true
+    form:            ~
+    csrf_protection: ~
     validation:      { enable_annotations: true }
-    templating:      { engines: ['twig'] } #assets_version: SomeVersionScheme
+    templating:
+        engines: ['twig']
+        #assets_version: SomeVersionScheme
     default_locale:  "%locale%"
-    trust_proxy_headers: false # Whether or not the Request object should trust proxy headers (X_FORWARDED_FOR/HTTP_CLIENT_IP)
-    session:         ~
+    trusted_proxies: ~
+    session: ~
+    fragments: ~
 
 # Twig Configuration
 twig:
@@ -79,45 +82,45 @@ fos_user:
         group_class: Application\Sonata\UserBundle\Entity\Group
 
 
-vince_t_admin:
-    default_theme: default
-    themes:
-        amelia:
-            name: Amelia
-            base_path: bundles/vincetadmin/bootstrap/amelia
-        cerulean:
-            name: Cerulean
-            base_path: bundles/vincetadmin/bootstrap/cerulean
-        cosmo:
-            name: Cosmo
-            base_path: bundles/vincetadmin/bootstrap/cosmo
-        cyborg:
-            name: Cyborg
-            base_path: bundles/vincetadmin/bootstrap/cyborg
-        default:
-            name: Default
-            base_path: bundles/vincetadmin/bootstrap/default
-        journal:
-            name: Journal
-            base_path: bundles/vincetadmin/bootstrap/journal
-        readable:
-            name: Readable
-            base_path: bundles/vincetadmin/bootstrap/readable
-        simplex:
-            name: Simplex
-            base_path: bundles/vincetadmin/bootstrap/simplex
-        slate:
-            name: Slate
-            base_path: bundles/vincetadmin/bootstrap/slate
-        spacelab:
-            name: Spacelab
-            base_path: bundles/vincetadmin/bootstrap/spacelab
-        spruce:
-            name: Spruce
-            base_path: bundles/vincetadmin/bootstrap/spruce
-        superhero:
-            name: Superhero
-            base_path: bundles/vincetadmin/bootstrap/superhero
-        united:
-            name: United
-            base_path: bundles/vincetadmin/bootstrap/united
+# vince_t_admin:
+#     default_theme: default
+#     themes:
+#         amelia:
+#             name: Amelia
+#             base_path: bundles/vincetadmin/bootstrap/amelia
+#         cerulean:
+#             name: Cerulean
+#             base_path: bundles/vincetadmin/bootstrap/cerulean
+#         cosmo:
+#             name: Cosmo
+#             base_path: bundles/vincetadmin/bootstrap/cosmo
+#         cyborg:
+#             name: Cyborg
+#             base_path: bundles/vincetadmin/bootstrap/cyborg
+#         default:
+#             name: Default
+#             base_path: bundles/vincetadmin/bootstrap/default
+#         journal:
+#             name: Journal
+#             base_path: bundles/vincetadmin/bootstrap/journal
+#         readable:
+#             name: Readable
+#             base_path: bundles/vincetadmin/bootstrap/readable
+#         simplex:
+#             name: Simplex
+#             base_path: bundles/vincetadmin/bootstrap/simplex
+#         slate:
+#             name: Slate
+#             base_path: bundles/vincetadmin/bootstrap/slate
+#         spacelab:
+#             name: Spacelab
+#             base_path: bundles/vincetadmin/bootstrap/spacelab
+#         spruce:
+#             name: Spruce
+#             base_path: bundles/vincetadmin/bootstrap/spruce
+#         superhero:
+#             name: Superhero
+#             base_path: bundles/vincetadmin/bootstrap/superhero
+#         united:
+#             name: United
+#             base_path: bundles/vincetadmin/bootstrap/united

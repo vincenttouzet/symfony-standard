@@ -4,10 +4,9 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "require": {
-        "php": ">=5.3.3",
+    "require": {        "php": ">=5.3.3",
         "symfony/symfony": "2.2.*",
-        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.1.*",
@@ -18,13 +17,19 @@
         "sensio/generator-bundle": "2.2.*",
         "jms/security-extra-bundle": "1.4.*",
         "jms/di-extra-bundle": "1.3.*",
-        "vincet/base-bundle": "master",
-        "sonata-project/cache-bundle": "master",
-        "sonata-project/intl-bundle": "master",
-        "sonata-project/user-bundle": "master",
-        "simplethings/entity-audit-bundle": "master",
-        "vincet/admin-bundle": "master",
-        "vincet/admin-configuration-bundle": "master"
+        "sonata-project/admin-bundle": "2.2.*@dev",
+        "sonata-project/block-bundle": "2.2.*@dev",
+        "sonata-project/user-bundle": "2.2.*@dev",
+        "sonata-project/intl-bundle": "2.1.0",
+        "sonata-project/cache-bundle": "2.1.*@dev",
+        "sonata-project/doctrine-orm-admin-bundle": "2.2.*@dev",
+        "knplabs/knp-menu-bundle": "1.1.*@dev",
+        "simplethings/entity-audit-bundle": "dev-master",
+        "trsteel/ckeditor-bundle": "dev-master",
+        "vincet/base-bundle": "dev-master",
+        "vincet/admin-bundle": "dev-master",
+        "vincet/bootstrap-form-bundle": "dev-master",
+        "vincet/admin-configuration-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
@@ -43,9 +48,12 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "extra": {
         "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
+        "symfony-web-dir": "web",
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
     }
 }
