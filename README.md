@@ -177,6 +177,7 @@ It comes pre-configured with the following bundles:
   * [**VinceTBaseBundle**][18] - Bundle for code generation
   * [**VinceTAdminBundle**][19] - Extends SonataAdminBundle
   * [**VinceTAdminConfigurationBundle**][20] - Add a configuration interface to the backend
+  * [**VinceTBootstrapFormBundle**][21] - Adds some usefull form types
 
 Enjoy!
 
@@ -200,3 +201,4 @@ Enjoy!
 [18]: https://github.com/vincenttouzet/BaseBundle
 [19]: https://github.com/vincenttouzet/AdminBundle
 [20]: https://github.com/vincenttouzet/AdminConfigurationBundle
+[21]: https://github.com/vincenttouzet/BootstrapFormBundle
