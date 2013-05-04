@@ -175,6 +175,9 @@ It comes pre-configured with the following bundles:
   * [**SonataUserBundle**][17] - User entity with authentication for backend and frontend
 
   * [**VinceTBaseBundle**][18] - Bundle for code generation
+  * [**VinceTAdminBundle**][19] - Extends SonataAdminBundle
+  * [**VinceTAdminConfigurationBundle**][20] - Add a configuration interface to the backend
+  * [**VinceTBootstrapFormBundle**][21] - Adds some usefull form types
 
 Enjoy!
 
@@ -196,3 +199,6 @@ Enjoy!
 [16]: http://sonata-project.org/bundles/admin/master/doc/index.html
 [17]: http://sonata-project.org/bundles/user/master/doc/index.html
 [18]: https://github.com/vincenttouzet/BaseBundle
+[19]: https://github.com/vincenttouzet/AdminBundle
+[20]: https://github.com/vincenttouzet/AdminConfigurationBundle
+[21]: https://github.com/vincenttouzet/BootstrapFormBundle
