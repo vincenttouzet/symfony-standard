@@ -26,13 +26,16 @@ class AppKernel extends Kernel
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
+            //new Sonata\CacheBundle\SonataCacheBundle(),
             new Sonata\IntlBundle\SonataIntlBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
+            new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new VinceT\BaseBundle\VinceTBaseBundle(),
             new VinceT\AdminBundle\VinceTAdminBundle('SonataAdminBundle'),
             new VinceT\AdminConfigurationBundle\VinceTAdminConfigurationBundle(),
+            new VinceT\BootstrapFormBundle\VinceTBootstrapFormBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
