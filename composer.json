@@ -26,9 +26,9 @@
         "simplethings/entity-audit-bundle": "dev-master",
         "trsteel/ckeditor-bundle": "dev-master",
         "vincet/base-bundle": "dev-master",
-        "vincet/admin-bundle": "dev-master",
+        "vincet/admin-bundle": "2.1.*@dev",
         "vincet/bootstrap-form-bundle": "dev-master",
-        "vincet/admin-configuration-bundle": "dev-master"
+        "vincet/admin-configuration-bundle": "2.1.*@dev"
     },
     "scripts": {
         "post-install-cmd": [

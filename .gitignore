@@ -6,5 +6,6 @@ build/
 /bin/
 /vendor
 composer.phar
+composer.lock
 web/css/compiled
 web/js/compiled
