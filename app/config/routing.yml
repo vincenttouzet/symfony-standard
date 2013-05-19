@@ -25,7 +25,7 @@ vince_t_admin:
 
 vince_t_admin_configuration:
     resource: "@VinceTAdminConfigurationBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /admin
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
